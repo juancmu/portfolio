@@ -1,7 +1,13 @@
-const Blog = () => {
+import Layout from "../components/Layout"
+
+const blog = () => {
   return (
-    <div>Blog</div>
+    <Layout>
+
+        <div>blog</div>
+
+    </Layout>
   )
 }
 
-export default Blog
+export default blog

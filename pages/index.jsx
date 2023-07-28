@@ -1,4 +1,15 @@
-const Index = () => <h1>Hello Juan y Angela, happy 20 years !!!</h1>
+import Layout from "../components/Layout";
 
 
+const Index = () => {
+
+    return (
+        <Layout>
+
+            <h1>Hello Juan</h1>
+
+        </Layout>
+    )
+
+}
 export default Index;
